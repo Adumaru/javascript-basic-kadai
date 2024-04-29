@@ -1,5 +1,6 @@
-const double =(num)=>{
-    return num*2;
+const squared =(num)=>{
+    const result= num**2;
+    console.log(result);
 }
 
-console.log(double(50));
+squared(10);
