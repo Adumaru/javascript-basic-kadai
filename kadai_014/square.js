@@ -1,6 +1,5 @@
-const squared =(num)=>{
-    const result= num**2;
+const squared = (num) => {
+    const result = num ** 2;
     console.log(result);
 }
-
-squared(10);
+console.log(squared(10));
